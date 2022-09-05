@@ -61,3 +61,15 @@ export type TUnlink_Result = TFSResult<TAnnotatedFSError<TUnlinkError>, {}>
 
 
 export type TWriteFile_Result = TFSResult<TAnnotatedFSError<TWriteFileError>, {}>
+
+
+//this type exists because it is used by lib-pareto-filesystem
+export type TWriteFileData = {
+    readonly path: TPath,
+    readonly data: string,
+    /**
+     * this property is added because getting the dirname of a path is string inspection and should not be done by
+     * a caller of this function
+     */
+    readonly createContainingDirectories: boolean
+}
