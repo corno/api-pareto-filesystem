@@ -1,3 +1,3 @@
 import * as pt from "pareto-core-types"
 
-export type Path = pt.Nested<string>
+export type TPath = pt.Nested<string>
