@@ -3,7 +3,7 @@ import * as pt from "pareto-core-types"
 import { TPath } from "../types/Path"
 import { IOnWriteFileError } from "../interfaces/x"
 
-export type FCreateWriteStream = (
+export type PCreateWriteStream = (
     $: {
         readonly "path": TPath
         readonly "createContainingDirectories": boolean
