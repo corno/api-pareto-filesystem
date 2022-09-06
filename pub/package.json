@@ -21,7 +21,7 @@
     "url": "git+https://github.com/corno/api-pareto-filesystem.git"
   },
   "types": "dist/index.d.ts",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "interface-fingerprint": "a37d4ef61928dad18c1b1fdf49e901628fdcc647",
   "content-fingerprint": "e0aa3f76932aadbde6d742bbf784bfb597264942"
 }
