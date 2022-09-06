@@ -1,7 +1,6 @@
 import * as pt from "pareto-core-types"
 
 import { TPath } from "../types/Path"
-import { IStreamConsumer } from "../interfaces/StreamConsumer"
 import { IOnWriteFileError } from "../interfaces/x"
 
 export type FCreateWriteStream = (
@@ -9,8 +8,11 @@ export type FCreateWriteStream = (
         readonly "path": TPath
         readonly "createContainingDirectories": boolean
     },
+    $c: (
+        $i: ($: string) => void
+    ) => void,
     $i: {
         readonly "onError": IOnWriteFileError
     },
     $a: pt.ProcessAsyncValue
-) => IStreamConsumer<string>
+) => void
