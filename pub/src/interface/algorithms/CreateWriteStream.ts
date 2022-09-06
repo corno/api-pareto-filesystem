@@ -6,10 +6,10 @@ import { IOnWriteFileError } from "../interfaces/x"
 
 export type FCreateWriteStream = (
     $: {
-        readonly path: TPath
-        readonly createContainingDirectories: boolean
+        readonly "path": TPath
+        readonly "createContainingDirectories": boolean
     },
     $i: {
-        onError: IOnWriteFileError
+        readonly "onError": IOnWriteFileError
     },
 ) => pt.AsyncValue<IStreamConsumer<string>>

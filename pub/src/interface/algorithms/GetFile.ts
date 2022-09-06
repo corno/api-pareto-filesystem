@@ -7,9 +7,9 @@ import { TAnnotatedReadFileError } from "../types/x"
 
 export type FGetFile = (
     $: {
-        readonly path: TPath
+        readonly "path": TPath
     },
     $i: {
-        init: () => IStreamConsumer<string>
+        readonly "init": () => IStreamConsumer<string>
     }
 ) => pt.AsyncValue<TFSResult<TAnnotatedReadFileError, {}>>
