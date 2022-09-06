@@ -12,4 +12,5 @@ export type FCreateWriteStream = (
     $i: {
         readonly "onError": IOnWriteFileError
     },
-) => pt.AsyncValue<IStreamConsumer<string>>
+    $a: pt.ProcessAsyncValue
+) => IStreamConsumer<string>
