@@ -4,9 +4,7 @@ import { TPath } from "../types/Path"
 import { IStreamConsumer } from "../interfaces/StreamConsumer"
 import { IOnWriteFileError } from "../interfaces/x"
 
-
-
-export type PCreateWriteStream = (
+export type FCreateWriteStream = (
     $: {
         readonly path: TPath
         readonly createContainingDirectories: boolean
@@ -14,6 +12,4 @@ export type PCreateWriteStream = (
     $i: {
         onError: IOnWriteFileError
     },
-    $c: ($c: IStreamConsumer<string>) => void,
-    $s: pa.StartAsync
-) => void
+) => pt.AsyncValue<IStreamConsumer<string>>

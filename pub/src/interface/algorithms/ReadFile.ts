@@ -1,5 +1,7 @@
+import * as pt from "pareto-core-types"
 
-import { FCreateAyncValue } from "./CreateAsyncValue"
 import { TReadFile_Data, TReadFile_Result } from "../types/x"
 
-export type AReadFile = FCreateAyncValue<TReadFile_Data, TReadFile_Result>
+export type FReadFile = (
+    $: TReadFile_Data
+) => pt.AsyncValue<TReadFile_Result>

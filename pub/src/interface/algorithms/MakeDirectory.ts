@@ -4,6 +4,6 @@ import { TMkdir_Data, TMkdir_Result } from "../types/x"
 
 
 
-export type AMkdir = (
+export type FMkdir = (
     $: TMkdir_Data,
 ) => pt.AsyncValue<TMkdir_Result>
