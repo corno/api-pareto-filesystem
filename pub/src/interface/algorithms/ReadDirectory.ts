@@ -1,6 +1,6 @@
 
-import { ACreateAyncValue } from "./CreateAsyncValue"
+import { FCreateAyncValue } from "./CreateAsyncValue"
 import { TReadDirectory_Data, TReadDirectory_Result } from "../types/x"
 
 
-export type AReadDirectory = ACreateAyncValue<TReadDirectory_Data, TReadDirectory_Result>
+export type AReadDirectory = FCreateAyncValue<TReadDirectory_Data, TReadDirectory_Result>

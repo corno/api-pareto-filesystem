@@ -6,7 +6,7 @@ import { IOnWriteFileError } from "../interfaces/x"
 
 
 
-export type XCreateWriteStream = (
+export type PCreateWriteStream = (
     $: {
         readonly path: TPath
         readonly createContainingDirectories: boolean
@@ -14,5 +14,6 @@ export type XCreateWriteStream = (
     $i: {
         onError: IOnWriteFileError
     },
-    $c: ($c: IStreamConsumer<string>) => void
-) => pt.AsyncNonValue
+    $c: ($c: IStreamConsumer<string>) => void,
+    $s: pa.StartAsync
+) => void

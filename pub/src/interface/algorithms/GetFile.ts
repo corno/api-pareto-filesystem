@@ -5,7 +5,7 @@ import { TFSResult } from "../types/FSResult"
 import { IStreamConsumer } from "../interfaces/StreamConsumer"
 import { TAnnotatedReadFileError } from "../types/x"
 
-export type AGetFile = (
+export type FGetFile = (
     $: {
         readonly path: TPath
     },

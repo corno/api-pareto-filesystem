@@ -1,5 +1,5 @@
 
-import { ACreateAyncValue } from "./CreateAsyncValue"
+import { FCreateAyncValue } from "./CreateAsyncValue"
 import { TReadFile_Data, TReadFile_Result } from "../types/x"
 
-export type AReadFile = ACreateAyncValue<TReadFile_Data, TReadFile_Result>
+export type AReadFile = FCreateAyncValue<TReadFile_Data, TReadFile_Result>
