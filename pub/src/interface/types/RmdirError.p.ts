@@ -1,7 +1,7 @@
 
 export type TRmdirError =
-| ["no entity", {}]
-| ["not empty", {}]
+| ["no entity", null]
+| ["not empty", null]
 | ["unknown", {
     readonly "message": string
 }]

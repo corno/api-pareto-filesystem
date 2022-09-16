@@ -1,8 +1,8 @@
 
 export type TMkdirError =
-| ["no entity", {}]
-| ["exists", {}]
-//| ["is directory", {}]
+| ["no entity", null]
+| ["exists", null]
+//| ["is directory", null]
 | ["unknown", {
     readonly "message": string
 }]

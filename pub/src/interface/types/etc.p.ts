@@ -22,9 +22,9 @@ export type TMkdir_Result = TFSResult<TAnnotatedFSError<TMkdirError>, {}>
 export type TDirNodeData = {
     readonly "path": string
     readonly "type":
-    | ["directory", {}]
-    | ["file", {}]
-    | ["unknown", {}]
+    | ["directory", null]
+    | ["file", null]
+    | ["unknown", null]
 }
 
 export type TReadDirectory_Data = {
