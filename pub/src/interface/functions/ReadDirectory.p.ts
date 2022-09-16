@@ -1,6 +1,6 @@
 import * as pt from "pareto-core-types"
 
-import { TReadDirectory_Data, TReadDirectory_Result } from "../types/x"
+import { TReadDirectory_Data, TReadDirectory_Result } from "../types/etc.p"
 
 
 export type FReadDirectory = (

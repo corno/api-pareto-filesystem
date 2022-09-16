@@ -1,6 +1,6 @@
 import * as pt from "pareto-core-types"
 
-import { TReadFile_Data, TReadFile_Result } from "../types/x"
+import { TReadFile_Data, TReadFile_Result } from "../types/etc.p"
 
 export type FReadFile = (
     $: TReadFile_Data

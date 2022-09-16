@@ -1,5 +1,5 @@
-import { TAnnotatedFSError } from "../types/FSResult";
-import { TWriteFileError } from "../types/WriteFileError";
+import { TAnnotatedFSError } from "../types/FSResult.p"
+import { TWriteFileError } from "../types/WriteFileError.p"
 
 export type IOnFSError<T> = ($: TAnnotatedFSError<T>) => void
 

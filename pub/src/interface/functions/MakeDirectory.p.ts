@@ -1,6 +1,6 @@
 import * as pt from "pareto-core-types"
 
-import { TMkdir_Data, TMkdir_Result } from "../types/x"
+import { TMkdir_Data, TMkdir_Result } from "../types/etc.p"
 
 
 

@@ -1,12 +1,12 @@
 import * as pt from "pareto-core-types"
 
-import { TAnnotatedFSError, TFSResult } from "./FSResult"
-import { TMkdirError } from "./MkdirError"
-import { TPath } from "./Path"
-import { TReadDirError } from "./ReadDirError"
-import { TReadFileError } from "./ReadFileError"
-import { TUnlinkError } from "./UnlinkError"
-import { TWriteFileError } from "./WriteFileError"
+import { TAnnotatedFSError, TFSResult } from "./FSResult.p"
+import { TMkdirError } from "./MkdirError.p"
+import { TPath } from "./Path.p"
+import { TReadDirError } from "./ReadDirError.p"
+import { TReadFileError } from "./ReadFileError.p"
+import { TUnlinkError } from "./UnlinkError.p"
+import { TWriteFileError } from "./WriteFileError.p"
 
 export type TAnnotatedReadFileError = TAnnotatedFSError<TReadFileError>
 

@@ -1,6 +1,6 @@
 import * as pt from "pareto-core-types"
 
-import { TWriteFileData, TWriteFile_Result } from "../types/x"
+import { TWriteFileData, TWriteFile_Result } from "../types/etc.p"
 
 
 export type FWriteFile = (

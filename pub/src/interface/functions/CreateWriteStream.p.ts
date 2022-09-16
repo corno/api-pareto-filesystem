@@ -1,7 +1,7 @@
 import * as pt from "pareto-core-types"
 
-import { TPath } from "../types/Path"
-import { IOnWriteFileError } from "../interfaces/x"
+import { TPath } from "../types/Path.p"
+import { IOnWriteFileError } from "../interfaces/interfaces.p"
 
 export type PCreateWriteStream = (
     $: {

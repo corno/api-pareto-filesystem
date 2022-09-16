@@ -1,8 +1,8 @@
 import * as pt from "pareto-core-types"
 
-import { TPath } from "../types/Path"
-import { TFSResult } from "../types/FSResult"
-import { TAnnotatedReadFileError } from "../types/x"
+import { TPath } from "../types/Path.p"
+import { TFSResult } from "../types/FSResult.p"
+import { TAnnotatedReadFileError } from "../types/etc.p"
 
 export type FGetFile = (
     $: {
